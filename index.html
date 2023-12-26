@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #camera {
+            float: left;
+            margin: 20px;
+            border: 1px solid #ccc;
+
+        }
+        #contentHolder {
+            width: 300px;
+            height: 300px;
+            border: 1px solid #ccc;
+            margin-bottom: 10px;
+        }
+        #imgBox{
+            width: 200px;
+            margin: 60px 20px 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>还未兼容老版本浏览器</h1>
+    <div id="camera">
+        <div id="contentHolder">
+            <video src="" id="video" width="300" height="300"></video>
+            <canvas style="display: none;" id="canvas" width="300" height="300"></canvas>
+        </div>
+        <button >拍照并下载</button>
+    </div>
+</body>
+<script src="./BrowerCallsCamera.js">
+
+</script>
+</html>
